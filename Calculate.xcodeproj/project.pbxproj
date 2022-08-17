@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69E55F7028AD32650086943C /* recordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E55F6F28AD32650086943C /* recordCell.swift */; };
 		69F4AE9C2886A1BE00137F5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F4AE9B2886A1BE00137F5A /* AppDelegate.swift */; };
 		69F4AE9E2886A1BE00137F5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F4AE9D2886A1BE00137F5A /* SceneDelegate.swift */; };
 		69F4AEA02886A1BE00137F5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F4AE9F2886A1BE00137F5A /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69E55F6F28AD32650086943C /* recordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordCell.swift; sourceTree = "<group>"; };
 		69F4AE982886A1BE00137F5A /* Calculate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F4AE9B2886A1BE00137F5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69F4AE9D2886A1BE00137F5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				69F4AEA62886A1C100137F5A /* LaunchScreen.storyboard */,
 				69F4AEA92886A1C100137F5A /* Info.plist */,
 				69F4AEAF2886ABDD00137F5A /* RoundButton.swift */,
+				69E55F6F28AD32650086943C /* recordCell.swift */,
 			);
 			path = Calculate;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E55F7028AD32650086943C /* recordCell.swift in Sources */,
 				69F4AEB02886ABDD00137F5A /* RoundButton.swift in Sources */,
 				69F4AEA02886A1BE00137F5A /* ViewController.swift in Sources */,
 				69F4AE9C2886A1BE00137F5A /* AppDelegate.swift in Sources */,
