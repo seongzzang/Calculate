@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZEx-1h-RPf">
-                                <rect key="frame" x="24" y="68" width="366" height="150"/>
+                                <rect key="frame" x="24" y="80" width="366" height="150"/>
                                 <color key="tintColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="Drs-gw-ZrX"/>
@@ -27,7 +28,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YNs-uK-5iT">
-                                <rect key="frame" x="24" y="242" width="366" height="596"/>
+                                <rect key="frame" x="24" y="254" width="366" height="584"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="NHV-wC-FMv">
                                         <rect key="frame" x="0.0" y="0.0" width="366" height="471"/>
@@ -372,16 +373,27 @@
                                     <constraint firstAttribute="bottom" secondItem="NHV-wC-FMv" secondAttribute="bottom" priority="750" id="jlj-tK-7TE"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAK-Gc-fcs">
+                                <rect key="frame" x="24" y="20" width="81" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="uTg-i5-Zhv"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemRedColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="RECORD"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="YNs-uK-5iT" firstAttribute="top" secondItem="ZEx-1h-RPf" secondAttribute="bottom" constant="24" id="5R6-th-aFa"/>
+                            <constraint firstItem="ZAK-Gc-fcs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="6ts-XD-1z4"/>
+                            <constraint firstItem="ZAK-Gc-fcs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="7VN-Kx-Zsn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZEx-1h-RPf" secondAttribute="trailing" constant="24" id="8a9-Uv-CTo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YNs-uK-5iT" secondAttribute="trailing" constant="24" id="B17-ac-2K8"/>
                             <constraint firstItem="ZEx-1h-RPf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="Whf-ap-jUF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YNs-uK-5iT" secondAttribute="bottom" constant="24" id="kHX-a0-J86"/>
-                            <constraint firstItem="ZEx-1h-RPf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="kTH-Xl-LZJ"/>
+                            <constraint firstItem="ZEx-1h-RPf" firstAttribute="top" secondItem="ZAK-Gc-fcs" secondAttribute="bottom" constant="10" id="kTH-Xl-LZJ"/>
                             <constraint firstItem="YNs-uK-5iT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="woW-Ab-iaH"/>
                         </constraints>
                     </view>
@@ -394,9 +406,65 @@
             <point key="canvasLocation" x="20" y="68"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="5fh-tP-8qA">
+            <size key="intrinsicContentSize" width="30" height="48"/>
+        </designable>
+        <designable name="8X5-97-iw5">
+            <size key="intrinsicContentSize" width="30" height="48"/>
+        </designable>
+        <designable name="9a4-pg-Jxv">
+            <size key="intrinsicContentSize" width="30" height="48"/>
+        </designable>
+        <designable name="CDl-ml-qQF">
+            <size key="intrinsicContentSize" width="30" height="48"/>
+        </designable>
+        <designable name="CfM-N9-uqU">
+            <size key="intrinsicContentSize" width="30" height="48"/>
+        </designable>
+        <designable name="Jm3-YC-BjO">
+            <size key="intrinsicContentSize" width="30" height="48"/>
+        </designable>
+        <designable name="L9X-0R-QAA">
+            <size key="intrinsicContentSize" width="30" height="48"/>
+        </designable>
+        <designable name="Npk-1W-BcB">
+            <size key="intrinsicContentSize" width="30" height="48"/>
+        </designable>
+        <designable name="Qyz-zW-Bj7">
+            <size key="intrinsicContentSize" width="30" height="48"/>
+        </designable>
+        <designable name="aGo-6a-Gb2">
+            <size key="intrinsicContentSize" width="30" height="48"/>
+        </designable>
+        <designable name="f1b-cm-SIY">
+            <size key="intrinsicContentSize" width="30" height="48"/>
+        </designable>
+        <designable name="fzc-rp-hhu">
+            <size key="intrinsicContentSize" width="41" height="48"/>
+        </designable>
+        <designable name="jWP-LU-43h">
+            <size key="intrinsicContentSize" width="30" height="48"/>
+        </designable>
+        <designable name="me3-Wx-uud">
+            <size key="intrinsicContentSize" width="30" height="48"/>
+        </designable>
+        <designable name="oat-BA-1Vt">
+            <size key="intrinsicContentSize" width="30" height="48"/>
+        </designable>
+        <designable name="rZ0-h6-s8V">
+            <size key="intrinsicContentSize" width="30" height="48"/>
+        </designable>
+        <designable name="yzc-rE-xtE">
+            <size key="intrinsicContentSize" width="30" height="48"/>
+        </designable>
+    </designables>
     <resources>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
